@@ -1,0 +1,33 @@
+.container{
+ width: vw;
+ height: vh;
+ background-color: aqua;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+  color: black;
+  gap: 20px;
+}
+.card{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 22rem;
+  height: 16rem;
+  background-color: aquamarine;
+}
+.btn{
+  width: 60px;
+  height: 40px;
+  border: 3px solid  rgb(11, 41, 53);
+  background-color: rgb(11, 41, 53);
+  border-radius:18px ;
+  margin: auto;
+  color: azure;
+}
+.cart-title{
+  background-color: rgb(205, 221, 65);
+}
